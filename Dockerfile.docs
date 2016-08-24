@@ -1,0 +1,6 @@
+FROM jessie/openwrt:latest
+MAINTAINER Noah Meyerhans <frodo@morgul.net>
+
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+  tex4ht texlive-latex-recommended texlive-fonts-recommended texlive-lang-french
+
