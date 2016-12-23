@@ -12,3 +12,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
   bin86 bcc sharutils xz-utils
 
 RUN adduser --disabled-password --uid 1000 --gecos "Docker Builder,,," builder
+
+VOLUME ["/src"]
+USER builder
+WORKDIR /src
