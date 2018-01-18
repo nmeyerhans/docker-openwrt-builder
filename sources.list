@@ -1,4 +1,4 @@
-deb http://shire.internal.morgul.net:3142/debian jessie main
-deb http://shire.internal.morgul.net:3142/debian jessie-updates main
-deb http://security.debian.org jessie/updates main
+deb http://172.17.0.2:3142/debian stretch main
+deb http://172.17.0.2:3142/debian stretch-updates main
+deb http://security.debian.org stretch/updates main
 
