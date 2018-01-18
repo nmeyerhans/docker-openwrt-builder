@@ -1,8 +1,6 @@
 FROM debian:stretch-slim
 MAINTAINER Noah Meyerhans <frodo@morgul.net>
 
-ADD sources.list /etc/apt/sources.list
-
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get -y --no-install-recommends install \
   asciidoc bash bc binutils bzip2 fastjar flex git-core g++ gcc util-linux \

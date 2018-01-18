@@ -1,4 +1,0 @@
-deb http://172.17.0.2:3142/debian stretch main
-deb http://172.17.0.2:3142/debian stretch-updates main
-deb http://security.debian.org stretch/updates main
-
