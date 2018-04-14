@@ -9,8 +9,5 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
   unzip wget gettext xsltproc libboost1.62-dev libxml-parser-perl libusb-dev \
   bin86 bcc sharutils xz-utils curl
 
-RUN adduser --disabled-password --uid 1000 --gecos "Docker Builder,,," builder
-
 VOLUME ["/src"]
-USER builder
 WORKDIR /src
