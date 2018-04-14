@@ -13,3 +13,4 @@ $ docker run --user $UID -v $PWD:/src -it openwrt-build make menuconfig
 $ docker run --user $UID -v $PWD:/src -it openwrt-build make
 ```
 
+I provide a bit more background and detail [on my blog](https://noah.meyerhans.us/blog/2015/03/19/building-openwrt-with-docker/), although things have changed a bit since then. The commands above differ slightly from what's on the blog, and you should consider this README as definitive.
