@@ -1,7 +1,8 @@
 FROM debian:stretch-slim
 MAINTAINER Noah Meyerhans <frodo@morgul.net>
 
-RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
+RUN apt-get update && \
+  DEBIAN_FRONTEND=noninteractive apt-get -y dist-upgrade && \
   DEBIAN_FRONTEND=noninteractive apt-get -y --no-install-recommends install \
   asciidoc bash bc binutils bzip2 fastjar flex git-core g++ gcc util-linux \
   gawk libgtk2.0-dev intltool jikespg zlib1g-dev make genisoimage subversion \
