@@ -1,6 +1,8 @@
 FROM debian:buster-slim
 MAINTAINER Noah Meyerhans <frodo@morgul.net>
 
+COPY sources.list /etc/apt/
+
 RUN apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get -y dist-upgrade && \
   DEBIAN_FRONTEND=noninteractive apt-get -y --no-install-recommends install \
