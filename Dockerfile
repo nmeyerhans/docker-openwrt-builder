@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM public.ecr.aws/debian/debian:buster-slim
 MAINTAINER Noah Meyerhans <frodo@morgul.net>
 
 COPY sources.list /etc/apt/
