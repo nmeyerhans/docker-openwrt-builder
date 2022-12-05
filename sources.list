@@ -1,2 +1,3 @@
-deb http://apt.internal.morgul.net:3142/debsec buster/updates main contrib non-free
-deb http://apt.internal.morgul.net:3142/debian buster main contrib non-free
+deb http://apt.internal.morgul.net:3142/debsec bullseye-security main contrib non-free
+deb http://apt.internal.morgul.net:3142/debian bullseye-updates main contrib non-free
+deb http://apt.internal.morgul.net:3142/debian bullseye main contrib non-free
