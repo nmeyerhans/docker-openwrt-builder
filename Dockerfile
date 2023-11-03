@@ -1,4 +1,4 @@
-FROM public.ecr.aws/debian/debian:bullseye-slim
+FROM public.ecr.aws/debian/debian:bookworm-slim
 MAINTAINER Noah Meyerhans <frodo@morgul.net>
 
 COPY sources.list /etc/apt/
