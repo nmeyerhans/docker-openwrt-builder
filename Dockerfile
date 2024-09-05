@@ -1,5 +1,5 @@
 FROM public.ecr.aws/debian/debian:bookworm-slim
-MAINTAINER Noah Meyerhans <frodo@morgul.net>
+LABEL org.opencontainers.image.authors="Noah Meyerhans <frodo@morgul.net>"
 
 COPY sources.list /etc/apt/
 
