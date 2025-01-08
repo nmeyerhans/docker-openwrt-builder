@@ -1,2 +1,2 @@
 all:
-	docker build --pull -t openwrt-build:latest .
+	docker build --pull --no-cache -t openwrt-build:latest .
